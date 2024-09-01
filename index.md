@@ -4,22 +4,13 @@ layout: home
 
 hero:
   name: "n.sitnik » lectures"
-  text: "Lectures by n.sitnik"
-  tagline: My great project tagline
+  tagline: Библиотека лекций, практических и лабораторных работ
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Операционные системы и среды
+      link: /os
     - theme: alt
-      text: API Examples
-      link: /api-examples
-
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+      text: Инструментальные средства разработки программного обеспечения
+      link: /tools
 ---
 
