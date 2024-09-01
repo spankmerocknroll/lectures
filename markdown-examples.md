@@ -1,3 +1,7 @@
+---
+title: Привет, это тестовая статья!
+---
+
 # Markdown Extension Examples
 
 This page demonstrates some of the built-in markdown extensions provided by VitePress.
@@ -8,7 +12,7 @@ VitePress provides Syntax Highlighting powered by [Shiki](https://github.com/shi
 
 **Input**
 
-````md
+```md
 ```js{4}
 export default {
   data () {
@@ -18,7 +22,7 @@ export default {
   }
 }
 ```
-````
+```
 
 **Output**
 
@@ -60,24 +64,34 @@ This is a details block.
 
 **Output**
 
-::: info
+:::note info
+
 This is an info box.
+
 :::
 
-::: tip
+:::note tip
+
 This is a tip.
+
 :::
 
-::: warning
+:::note warning
+
 This is a warning.
+
 :::
 
-::: danger
+:::note danger
+
 This is a dangerous warning.
+
 :::
 
-::: details
+:::note details
+
 This is a details block.
+
 :::
 
 ## More
